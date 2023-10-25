@@ -1,0 +1,3748 @@
+[{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-8046-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "67325322-483f-443f-9ffa-2a20d108a2fb", 
+      "entity_id": "31f50125-a650-4ac0-ac05-e6494b4f43ba"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-8046-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "67325322-483f-443f-9ffa-2a20d108a2fb", 
+      "entity_id": "a9a573a3-0ed1-4e85-89fa-f3b236d6f246"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.a9a573a3-0ed1-4e85-89fa-f3b236d6f246.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.a9a573a3-0ed1-4e85-89fa-f3b236d6f246.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_G09_1039498.CEL", 
+        "submitter_id": "86c385d7-b751-48d0-82a9-e121a0e7e8b1_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69079893, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:36:03.492963-06:00", 
+        "md5sum": "ea1d52b90810d701b2721812c7ac3f7d", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "143e56cc-6d5a-45a6-a217-427520095ea5", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_D04_1039442.CEL", 
+        "submitter_id": "08b563b9-09ac-4c26-9437-2bbd2c24b6ac_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69113489, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T11:49:13.105590-06:00", 
+        "md5sum": "d41e049e740c13dab2dd71b856f561e2", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "b02ba6ea-264b-4463-89a8-3a60e3b6b40e", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "a9a573a3-0ed1-4e85-89fa-f3b236d6f246_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "b1350d6d-1db2-4e04-8ef1-ef6c01702c2d", 
+    "created_datetime": "2020-03-11T14:04:08.554334-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446858, 
+  "md5sum": "ec3a12a935cece032b9bcd39486fea59", 
+  "file_id": "c2d01351-197d-4307-9397-99ba478ea118", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A6HO-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "69f23725-adca-48ac-9b33-80a7aae24cfe", 
+      "entity_id": "fa277b79-5218-4af1-bc6f-8dc919177d5e"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A6HO-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "69f23725-adca-48ac-9b33-80a7aae24cfe", 
+      "entity_id": "f374ed7d-b5cf-4b1e-b966-1ec1775ecade"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.f374ed7d-b5cf-4b1e-b966-1ec1775ecade.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.f374ed7d-b5cf-4b1e-b966-1ec1775ecade.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G11_1364932.CEL", 
+        "submitter_id": "72011a14-0918-4941-abc8-0de1f3eda04f_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69076229, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:16:54.955595-06:00", 
+        "md5sum": "52df42645d99ca9a3afd56583b1a9818", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "15fad39c-42fe-455c-a136-63574b8f6d65", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G12_1364830.CEL", 
+        "submitter_id": "3cfd6c82-6303-4534-a58c-48d3feb782eb_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69063193, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:32:47.176542-06:00", 
+        "md5sum": "abc4db7d91a4d71401624292673969e9", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "9aafbc5a-89f7-47ba-b976-f817a736f94d", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "f374ed7d-b5cf-4b1e-b966-1ec1775ecade_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "01c74072-8d92-42cb-a2c9-004684bb8fdd", 
+    "created_datetime": "2020-03-11T14:45:55.821888-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3448970, 
+  "md5sum": "0574f779812623b55790da42bf71e61d", 
+  "file_id": "bf5aa2d3-5322-44d9-a1f5-37695b2eacf0", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A86F-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "b56bdbdb-43af-4a03-a072-54dd22d7550c", 
+      "entity_id": "fabe4ad7-228c-401a-8777-5bcfacecea8a"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A86F-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "b56bdbdb-43af-4a03-a072-54dd22d7550c", 
+      "entity_id": "ad89b287-1d8b-43f8-bcf0-4a57f24562b3"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.ad89b287-1d8b-43f8-bcf0-4a57f24562b3.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.ad89b287-1d8b-43f8-bcf0-4a57f24562b3.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A02_1473426.CEL", 
+        "submitter_id": "2aacb579-ded9-4fe2-969b-d8a776bf96d3_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69045057, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:19:12.230081-06:00", 
+        "md5sum": "c14d01fedf906a55c1c9fca1b0c5ac4f", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "1d287515-dbfe-4ac7-b271-8ba631b81cfd", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A01_1473332.CEL", 
+        "submitter_id": "fe9942c3-37cf-4b7f-94c0-8b98b762a12c_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69048429, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:02:56.743608-06:00", 
+        "md5sum": "7c56b2d5cb37469add78d0e261161f99", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "d88ec8a4-795d-4d1b-a186-1e3777e5b852", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "ad89b287-1d8b-43f8-bcf0-4a57f24562b3_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "ed20379a-43f9-4454-bfcb-8261bf44ae59", 
+    "created_datetime": "2020-03-11T14:31:56.030209-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446828, 
+  "md5sum": "fc9817293feb5de74057f746804d320e", 
+  "file_id": "0a989220-bc06-4f3e-b2e1-795e86f1aa85", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A82F-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "e6365b38-bc44-400c-b4aa-18ce8ff5bfce", 
+      "entity_id": "9755c987-1430-4961-b0c9-2fdb58d778ea"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A82F-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "e6365b38-bc44-400c-b4aa-18ce8ff5bfce", 
+      "entity_id": "73e40091-c302-47e9-a09f-0795eee8e498"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.9755c987-1430-4961-b0c9-2fdb58d778ea.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.9755c987-1430-4961-b0c9-2fdb58d778ea.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_C04_1473376.CEL", 
+        "submitter_id": "d5246d6d-1a46-4878-aa4e-ffdc577f32b0_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69113249, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:01:48.381565-06:00", 
+        "md5sum": "8b5075ba818276bd9657c1f2544470f1", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "56e90f1b-e0e2-446e-87b1-4f91a894ff15", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_C05_1473326.CEL", 
+        "submitter_id": "7b0a8d91-102a-40c8-b0f3-e4d48c47c117_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69047813, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:15:35.890434-06:00", 
+        "md5sum": "687c0758c72cba55164ec0160df7f2e1", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "78a59b84-7f7b-476a-a5b2-52b608c3f2fa", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "9755c987-1430-4961-b0c9-2fdb58d778ea_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "f4c07a1b-353f-43eb-97df-6359bc320e5e", 
+    "created_datetime": "2020-03-11T15:30:44.174994-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3448432, 
+  "md5sum": "83f17342234f861f9f753576fbeeae55", 
+  "file_id": "f5144a61-7ded-4a5e-a23d-bd09c4472930", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-RQ-A68N-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "25ff86af-beb4-480c-b706-f3fe0306f7cf", 
+      "entity_id": "7c05f834-afff-4a9a-8708-1de8605435e3"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-RQ-A68N-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "25ff86af-beb4-480c-b706-f3fe0306f7cf", 
+      "entity_id": "f1e1588f-ceb7-43dc-ad68-d92f0ee4e0ef"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.f1e1588f-ceb7-43dc-ad68-d92f0ee4e0ef.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.f1e1588f-ceb7-43dc-ad68-d92f0ee4e0ef.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H10_1364852.CEL", 
+        "submitter_id": "50a3ae02-3316-4c96-93d8-567bc7632c59_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69126501, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:47:04.058243-06:00", 
+        "md5sum": "bfe73ce211fd22e0b75be51fcd8c95ca", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "52df7f17-5ed9-4b72-94a6-e67b628250c2", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H09_1364838.CEL", 
+        "submitter_id": "251263de-861b-406b-bd39-3bb44e2da2e4_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69092417, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:31:31.318293-06:00", 
+        "md5sum": "1a60d9503426065fadce4fdcf380643a", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "845a673c-2176-4850-81a1-f8764c8e94a0", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "f1e1588f-ceb7-43dc-ad68-d92f0ee4e0ef_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "e59826a8-0971-4c4b-8d5b-8f4e98ec2f9e", 
+    "created_datetime": "2020-03-11T15:01:18.639843-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446861, 
+  "md5sum": "b3d096d054b00a6172e8007dd2fd013d", 
+  "file_id": "7d7e7ec5-449c-4124-8255-8884d9a7ac17", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TW-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "29aff186-c321-4ff9-b81b-105e27e620ff", 
+      "entity_id": "8a3b0ad4-9d28-47c7-bfca-5d3284c50718"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TW-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "29aff186-c321-4ff9-b81b-105e27e620ff", 
+      "entity_id": "868c9d11-7ea0-4e31-aa3d-ea2f18b96dc4"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.8a3b0ad4-9d28-47c7-bfca-5d3284c50718.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.8a3b0ad4-9d28-47c7-bfca-5d3284c50718.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B03_1473448.CEL", 
+        "submitter_id": "550a8f0c-680e-419d-b3d2-f6315116c894_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69044813, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:49:51.876209-06:00", 
+        "md5sum": "1d047034aefc6e1a2912ca7f5563b7d2", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "133c2d21-6e8d-47de-9e9c-ecbac24ef93f", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B02_1473468.CEL", 
+        "submitter_id": "9efe6a8b-510b-4c71-81a5-11780d3f6d13_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69043305, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:34:30.933741-06:00", 
+        "md5sum": "a5916f347383380f55cbbee828b11747", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "63661361-6c76-4ccf-b39d-e4092a18204a", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "8a3b0ad4-9d28-47c7-bfca-5d3284c50718_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "6bd3d164-3e9d-4f4f-a355-69e1200454bc", 
+    "created_datetime": "2020-03-11T15:04:13.555059-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3447554, 
+  "md5sum": "c6944c9b0ac6b7dcbedd5e0b088adb6f", 
+  "file_id": "928b8605-68cb-42af-b42a-5c11b40c0b47", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TZ-10A-01D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "eda9496e-be80-4a13-bf06-89f0cc9e937f", 
+      "entity_id": "8917b892-ecde-43a0-9fe9-dda9e6999265"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TZ-01A-11D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "eda9496e-be80-4a13-bf06-89f0cc9e937f", 
+      "entity_id": "d20cb7e6-53e5-40c5-87e7-f81a530b21a9"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.d20cb7e6-53e5-40c5-87e7-f81a530b21a9.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.d20cb7e6-53e5-40c5-87e7-f81a530b21a9.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_D01_1486536.CEL", 
+        "submitter_id": "2cf2b3bf-d0a5-48c8-8949-d653271ebf20_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69123301, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:20:47.906211-06:00", 
+        "md5sum": "395278c0888a0cccc0de8a985fd2b889", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "c6ff35f1-a275-4cda-bfb9-d7fc0e758fb4", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C12_1486404.CEL", 
+        "submitter_id": "0b5c4a8f-5d54-48c6-a60a-25baf5fb997e_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69123457, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:04:39.157722-06:00", 
+        "md5sum": "dcba42e00424a67964604546aec88f29", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "d470a8d2-0dcb-483f-9943-2c657dd5c82c", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "d20cb7e6-53e5-40c5-87e7-f81a530b21a9_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "69c6fe92-365e-4515-9d60-0dd0163c9a56", 
+    "created_datetime": "2020-03-11T14:33:39.894910-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446858, 
+  "md5sum": "b86d34bafed405b4605063762d3e8a6b", 
+  "file_id": "daeaf6a0-df55-4d9e-a2c6-dabd1fcde7a6", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GR-7351-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "7a589441-11ef-4158-87e7-3951d86bc2aa", 
+      "entity_id": "3da2d7e4-c2e6-4b54-a9d7-425dd7da9ab0"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GR-7351-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "7a589441-11ef-4158-87e7-3951d86bc2aa", 
+      "entity_id": "a157f4ea-4df2-4a03-a62b-50a94e2dff69"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.3da2d7e4-c2e6-4b54-a9d7-425dd7da9ab0.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.3da2d7e4-c2e6-4b54-a9d7-425dd7da9ab0.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_E11_1039556.CEL", 
+        "submitter_id": "3faafa84-8eb5-481d-b8ba-99f16e8ba35f_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69117989, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:34:43.496695-06:00", 
+        "md5sum": "90c023b6e2e2c312e759032ca1a2d04c", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "0432e3cd-255d-4af6-a0e1-bc81d573d6dc", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_B08_1039482.CEL", 
+        "submitter_id": "af53c9ba-6ef4-43b1-bf34-1ede60d6efa2_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69096473, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:18:47.678076-06:00", 
+        "md5sum": "fc026abb390b5fad92ed70ec308f7d67", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "9cb60416-9af3-44e7-8985-9dfba17bac87", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "3da2d7e4-c2e6-4b54-a9d7-425dd7da9ab0_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "b93e4012-682c-42fd-97ef-00f4d7ea4a13", 
+    "created_datetime": "2020-03-11T14:47:50.749374-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446843, 
+  "md5sum": "272a41c634f0f79c93e0c4aac5eb3701", 
+  "file_id": "5397a248-eba1-43a6-a84f-331d5bbe0f0a", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TQ-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "45b0cf9f-a879-417f-8f39-7770552252c0", 
+      "entity_id": "ea3db49a-7294-4964-8bb5-96500ea47958"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TQ-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "45b0cf9f-a879-417f-8f39-7770552252c0", 
+      "entity_id": "41362290-d718-421c-aba6-43ad171944b4"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.ea3db49a-7294-4964-8bb5-96500ea47958.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.ea3db49a-7294-4964-8bb5-96500ea47958.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_C01_1473328.CEL", 
+        "submitter_id": "623dc9fc-356a-4336-a569-9f6b63c67f06_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69046197, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:58:56.172324-06:00", 
+        "md5sum": "0cfcb904965176267c82bd5a7023a5d4", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "822f2b9e-26aa-41d5-8e17-415879a99adc", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B12_1473390.CEL", 
+        "submitter_id": "0a4add6b-ecb8-4fdb-b096-85e534248797_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69050073, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:44:02.497583-06:00", 
+        "md5sum": "e80a2819e1b7dc8adf1442aa8d700554", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "919d7f18-cdaf-4142-a834-f6553d6978e6", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "ea3db49a-7294-4964-8bb5-96500ea47958_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "6e928bf8-433e-461b-a7e9-b0ef2057faa1", 
+    "created_datetime": "2020-03-11T15:13:32.442665-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3447312, 
+  "md5sum": "4228de4f50c15dd532ad5c306537568c", 
+  "file_id": "3c7e4d95-c1da-44ad-b37b-d0b049392ecf", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A4BB-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1843c82e-7a35-474f-9f79-c0a9af9aa09c", 
+      "entity_id": "e6bdfc3e-fbb5-4183-ac2d-e4fc7a7f1494"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A4BB-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1843c82e-7a35-474f-9f79-c0a9af9aa09c", 
+      "entity_id": "69d65371-5fd2-4988-ad11-c571d5bcc644"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.69d65371-5fd2-4988-ad11-c571d5bcc644.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.69d65371-5fd2-4988-ad11-c571d5bcc644.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G06_1364786.CEL", 
+        "submitter_id": "c337675b-1066-4177-84a6-6d902fc26934_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69086849, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:05:56.616133-06:00", 
+        "md5sum": "afd74565593312b6e35b285f153c9c7b", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "b96a49e7-52cc-40de-b46e-5dda5911a77a", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G05_1364922.CEL", 
+        "submitter_id": "13b57a0e-8912-4502-9173-b19dfc7fe728_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69093869, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:54:39.740383-06:00", 
+        "md5sum": "ac18924f820af06184e3ac4cf01c2a07", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "452970a0-4d6f-4715-a378-4ea6584fc94f", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "69d65371-5fd2-4988-ad11-c571d5bcc644_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "b94ae2b8-3ede-4b66-8959-981266ab06dd", 
+    "created_datetime": "2020-03-11T16:23:05.523037-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446843, 
+  "md5sum": "60159047777dc5dcf95ed983540b59fa", 
+  "file_id": "cdb0a404-b2d1-4f60-80cd-5008a8c58f0a", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-8061-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c8cde9ea-89e9-4ee8-8a46-417a48f6d3ab", 
+      "entity_id": "67ea0721-72f4-4be7-86a6-3e842ea49986"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-8061-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c8cde9ea-89e9-4ee8-8a46-417a48f6d3ab", 
+      "entity_id": "3749af12-9cc5-4aba-837a-fc2dc58b4376"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.3749af12-9cc5-4aba-837a-fc2dc58b4376.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.3749af12-9cc5-4aba-837a-fc2dc58b4376.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F11_1039586.CEL", 
+        "submitter_id": "26cf9a78-4579-47c6-a449-e1a6a95d67ed_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69079797, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:18:45.832961-06:00", 
+        "md5sum": "7cf3c2eaeb1528a73fe720c3ddeb313b", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "a652511f-01d1-4eb4-8294-9ff172b9b24d", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F01_1039530.CEL", 
+        "submitter_id": "92fcff24-d249-487a-8ae8-964a0f24d811_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69084125, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:31:54.226169-06:00", 
+        "md5sum": "96ea997ba42a7bb2f050c27f28139ca6", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "3f2bd58b-8557-4d4c-811a-44853bb50905", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "3749af12-9cc5-4aba-837a-fc2dc58b4376_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "b1664c09-28c9-4c10-8e72-567650da63c4", 
+    "created_datetime": "2020-03-11T15:47:19.322630-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446705, 
+  "md5sum": "0e815c8a30099c316affa617e81816f0", 
+  "file_id": "bd3af2e6-431d-4a2b-af30-b544b2c9fbde", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TX-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "58e66976-4507-4552-ac53-83a49a142dde", 
+      "entity_id": "cb476803-1b00-4fa5-a1ca-c70be2f1db32"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TX-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "58e66976-4507-4552-ac53-83a49a142dde", 
+      "entity_id": "c9c46d21-88ef-4763-a9d1-97c3bac1281a"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.cb476803-1b00-4fa5-a1ca-c70be2f1db32.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.cb476803-1b00-4fa5-a1ca-c70be2f1db32.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B01_1473402.CEL", 
+        "submitter_id": "f82e51d0-46d0-4789-ad17-2f4d68a4bb64_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69047221, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:46:46.551456-06:00", 
+        "md5sum": "41f7407f95a7733f0928327caa2b0dff", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "6c429e62-226e-48c2-ae9e-b652d66963b3", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A12_1473320.CEL", 
+        "submitter_id": "71637fab-f9ea-4740-80b8-ff90cacd331a_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69061437, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:35:46.341761-06:00", 
+        "md5sum": "8199ab823895920174ac44717667eb49", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "d5884fa3-6b4d-427d-b205-bfe35c476c49", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "cb476803-1b00-4fa5-a1ca-c70be2f1db32_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "af2edef6-18c8-4952-81f5-98b165bd7280", 
+    "created_datetime": "2020-03-11T17:04:52.530298-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446921, 
+  "md5sum": "d62851d495d263dccc71082933dc8823", 
+  "file_id": "7e7c5f74-5f16-46ac-812e-db27f0b5f013", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GR-A4D4-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "d7df78b5-24f1-4ff4-bd9b-f0e6bec8289a", 
+      "entity_id": "87c810ae-fcc9-46a6-a530-22ecc0abe794"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GR-A4D4-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "d7df78b5-24f1-4ff4-bd9b-f0e6bec8289a", 
+      "entity_id": "c6826336-3320-4342-a326-658471b73674"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.c6826336-3320-4342-a326-658471b73674.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.c6826336-3320-4342-a326-658471b73674.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H02_1364850.CEL", 
+        "submitter_id": "8291d22b-8825-4606-9835-0feafc735c67_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69069985, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:37:23.890511-06:00", 
+        "md5sum": "42905b6a52030355bacff5444a45c406", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "a2eb69c1-79de-4d0d-8710-7cbc88c1a3ad", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H01_1364876.CEL", 
+        "submitter_id": "ac6a520b-dcbe-4841-aeed-d8b9cb5bf017_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69103149, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:48:57.897909-06:00", 
+        "md5sum": "05b8003eb2f007408748e3b92d68e586", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "17b70b4e-5c4b-4e83-807a-c43f64c19301", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "c6826336-3320-4342-a326-658471b73674_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "1455ebc6-965e-487a-9755-16a2c11e65dc", 
+    "created_datetime": "2020-03-11T16:05:52.395180-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446868, 
+  "md5sum": "6cc880969fe4d815107b7e84915a2c17", 
+  "file_id": "dffd2d5d-5495-41b6-adfc-1720767d836f", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-A7CR-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f784bc3a-751b-4025-aab2-0af2f6f24266", 
+      "entity_id": "e6ff420f-02d4-4af4-b438-e801b5c1734f"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-A7CR-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f784bc3a-751b-4025-aab2-0af2f6f24266", 
+      "entity_id": "d667b3a8-35d8-46fa-b3c3-4fbe24c889e6"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.d667b3a8-35d8-46fa-b3c3-4fbe24c889e6.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.d667b3a8-35d8-46fa-b3c3-4fbe24c889e6.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B05_1473380.CEL", 
+        "submitter_id": "3bf4c1f5-8068-494b-a231-f199c6aab948_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69049061, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:32:12.051689-06:00", 
+        "md5sum": "b4113fa2b339e7431800de18de9c0350", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "9a39ad5f-9ba8-4073-a0fa-35f791e6bbd8", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B04_1473414.CEL", 
+        "submitter_id": "563b3bc1-a3a6-47e3-b76a-dcbb2bde8a35_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69133233, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:16:18.297364-06:00", 
+        "md5sum": "ae4c7b683db9ef8703e8740ab7c38066", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "a0c7ef60-c265-48dd-b351-0908af2b947e", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "d667b3a8-35d8-46fa-b3c3-4fbe24c889e6_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "8bc7c05a-774f-4df3-9c91-c34f73770704", 
+    "created_datetime": "2020-03-11T14:45:20.291297-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446862, 
+  "md5sum": "2a2a2a243823a5aba60b66d712be63e6", 
+  "file_id": "85264175-9bf9-409f-8ebe-a8e9b56448eb", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-8043-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a8e2df1e-4042-42af-9231-3a00e83489f0", 
+      "entity_id": "c62dda8e-e972-4c15-a452-668dc1311a8b"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-8043-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a8e2df1e-4042-42af-9231-3a00e83489f0", 
+      "entity_id": "bc779b55-426c-4a2a-8e38-850151fe189c"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.c62dda8e-e972-4c15-a452-668dc1311a8b.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.c62dda8e-e972-4c15-a452-668dc1311a8b.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_E10_1039404.CEL", 
+        "submitter_id": "fc8385dc-34f1-4c6c-bc4d-b5ea058569ea_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69128573, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:47:42.455979-06:00", 
+        "md5sum": "888aedb05639dc4ec96c6b73e73ed49f", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "73073115-d247-48fa-8fee-48f4a4c02727", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F08_1039410.CEL", 
+        "submitter_id": "183b6279-0ebc-4444-ba19-190e168a9789_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69089577, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:04:55.594237-06:00", 
+        "md5sum": "a9826a300effcc34cafe7118983886f1", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "9c737b12-f392-4cd4-b8fc-4b3f80a44d9b", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "c62dda8e-e972-4c15-a452-668dc1311a8b_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "0fac2981-dcf6-4591-b13f-ae24d18217bb", 
+    "created_datetime": "2020-03-11T14:16:22.897302-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446940, 
+  "md5sum": "77808890281d229c96373ae6c2bb8596", 
+  "file_id": "369083c2-48ca-456f-8733-9307e5e66fc5", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-RQ-A6JB-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "dc87a809-95de-4eb7-a1c2-2650475f2d7e", 
+      "entity_id": "c4204026-9ff9-49f7-b506-ae4d15c37e0d"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-RQ-A6JB-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "dc87a809-95de-4eb7-a1c2-2650475f2d7e", 
+      "entity_id": "f2cd984e-c662-4e14-abd8-f4c4f574f9f9"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.c4204026-9ff9-49f7-b506-ae4d15c37e0d.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.c4204026-9ff9-49f7-b506-ae4d15c37e0d.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H11_1364888.CEL", 
+        "submitter_id": "aebc01b6-3581-43a3-8610-df3c6eb26d43_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69062613, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:25:21.915358-06:00", 
+        "md5sum": "31f385f036fb4f966d73cb37d35f4eaa", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "54fc26da-afde-4787-865d-02484a4ed641", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H12_1364856.CEL", 
+        "submitter_id": "9c25cf17-e585-4656-8fc3-83f217e029d5_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69063593, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:37:52.658183-06:00", 
+        "md5sum": "5585069d64a3812f867a273ebcea710d", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "01dbfc09-ba66-4b5b-a399-d452c6e87e4a", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "c4204026-9ff9-49f7-b506-ae4d15c37e0d_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "9c8b2dd2-5898-42ec-b555-c5ca65e94d13", 
+    "created_datetime": "2020-03-11T15:53:46.752057-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446825, 
+  "md5sum": "8e1869a885069127efd6aef60146956c", 
+  "file_id": "544dc038-7bde-4b2d-b4d1-6bd93efd1cd7", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G8-6325-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "ea54dbad-1b23-41cc-9378-d4002a8fca51", 
+      "entity_id": "632a72e1-4d18-4971-b3ff-ebde8a6e8db4"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G8-6325-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "ea54dbad-1b23-41cc-9378-d4002a8fca51", 
+      "entity_id": "64f8a19d-e8d7-4b0f-b41f-4e7745a444f3"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.632a72e1-4d18-4971-b3ff-ebde8a6e8db4.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.632a72e1-4d18-4971-b3ff-ebde8a6e8db4.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_D08_1039492.CEL", 
+        "submitter_id": "71ae714b-ff28-4143-bc5a-486ca1ddec2d_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69083013, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:09:23.649361-06:00", 
+        "md5sum": "2879d9b58b3a2512867a65085282667f", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "a9c45d86-57e6-4acd-ba57-4ae55d56766f", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_C01_1039484.CEL", 
+        "submitter_id": "f0446a08-ce26-4ecd-9abb-d7b1ce807053_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69083265, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:55:27.985774-06:00", 
+        "md5sum": "241b4aa1d4554d8f58fa100521e64351", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "20183102-4461-46f8-a312-c648943becf5", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "632a72e1-4d18-4971-b3ff-ebde8a6e8db4_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "08c3fcf1-7a9b-458a-aa43-6eeb1a440fa0", 
+    "created_datetime": "2020-03-11T15:24:21.150857-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3447110, 
+  "md5sum": "657a2284cd87da813311551f3964e7e0", 
+  "file_id": "7d03537c-80d6-4f29-a749-31fbb34d02f4", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9U3-10A-01D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "fdecb74f-ac4e-46b1-b23a-5f7fde96ef9f", 
+      "entity_id": "f2ea44b1-228d-477d-835d-fbd0c3a248ce"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9U3-01A-11D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "fdecb74f-ac4e-46b1-b23a-5f7fde96ef9f", 
+      "entity_id": "d61af0c6-e1f3-476b-90be-6b21c8403343"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.d61af0c6-e1f3-476b-90be-6b21c8403343.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.d61af0c6-e1f3-476b-90be-6b21c8403343.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C09_1486504.CEL", 
+        "submitter_id": "8cc7ee24-0803-4ffb-a772-c64ebb39fb57_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69043669, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:27:56.859671-06:00", 
+        "md5sum": "06c6beac2731da74e22bb715c315927a", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "f5f8dd20-53e7-4167-8c93-a90e0d588601", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C08_1486424.CEL", 
+        "submitter_id": "d3357acc-758d-4996-9c25-fa0317e55108_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69070993, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:14:33.841232-06:00", 
+        "md5sum": "c0dedd873db648bee96b82d625390695", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "8f0da266-8926-4cf9-a19a-2faa9222030c", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "d61af0c6-e1f3-476b-90be-6b21c8403343_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "d642f3c8-daac-4f43-b291-32d73a5344e3", 
+    "created_datetime": "2020-03-11T15:43:14.411582-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446837, 
+  "md5sum": "bf1058d97bafaac95a410dbb839a65cd", 
+  "file_id": "ae07725d-d156-4c80-8c3a-1bdb611a365c", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TY-10A-01D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "6e9437f0-a4ed-475c-ab0e-bf1431c70a90", 
+      "entity_id": "4e25aad8-047b-46af-9a56-600422f59a7d"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TY-01A-11D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "6e9437f0-a4ed-475c-ab0e-bf1431c70a90", 
+      "entity_id": "c4c97e2c-012d-4916-a258-5bb6972f8fb8"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.c4c97e2c-012d-4916-a258-5bb6972f8fb8.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.c4c97e2c-012d-4916-a258-5bb6972f8fb8.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C07_1486516.CEL", 
+        "submitter_id": "4208983e-498b-4f2f-9c48-39b4e5168b9c_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69086741, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:36:50.806608-06:00", 
+        "md5sum": "e2a0e46b1bf1ff1ac9517c33200e66dc", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "572fd6eb-42b7-47f6-8921-9b92027a13a1", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C06_1486532.CEL", 
+        "submitter_id": "3e20ee21-a503-4737-a7c0-d9350be33812_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69081969, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:20:55.559992-06:00", 
+        "md5sum": "e0c37b398eb83c48fbf01141e53ee095", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "846cdfb0-7d22-4e7a-83b3-8dc230ae51e6", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "c4c97e2c-012d-4916-a258-5bb6972f8fb8_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "3eca5eed-32ec-4ecb-a37f-6feac50b5698", 
+    "created_datetime": "2020-03-11T14:50:00.105975-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3447126, 
+  "md5sum": "60a6521c0281af7797ec209f2d582e71", 
+  "file_id": "50dd0e48-74dd-4b51-9240-f9d11902fe62", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G8-6906-14A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "3f5a897d-1eaa-4d4c-8324-27ac07c90927", 
+      "entity_id": "6943ae6d-5c87-44cc-9b2e-da334b1a1846"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G8-6906-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "3f5a897d-1eaa-4d4c-8324-27ac07c90927", 
+      "entity_id": "a99749f9-301f-4e2c-9387-c37e98830e04"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.a99749f9-301f-4e2c-9387-c37e98830e04.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.a99749f9-301f-4e2c-9387-c37e98830e04.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-G8-6906", 
+      "notes": "Patient diagnosed and had prior treatment (CHOP) 7 years prior to procurement of the TCGA specimen. The TSS did confirm the TCGA tumor was a recurrence.", 
+      "submitter_id": "22377", 
+      "classification": "Notification", 
+      "entity_id": "3f5a897d-1eaa-4d4c-8324-27ac07c90927", 
+      "created_datetime": "2014-09-26T00:00:00", 
+      "annotation_id": "2789b75b-4f8d-577b-80fd-c1f0e1aa40be", 
+      "entity_type": "case", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "3f5a897d-1eaa-4d4c-8324-27ac07c90927", 
+      "state": "released", 
+      "category": "Case submitted is found to be a recurrence after submission", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F09_1039544.CEL", 
+        "submitter_id": "9c6ee49a-2281-4ee9-a7d9-e093acc8b1d8_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69092733, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:59:33.378353-06:00", 
+        "md5sum": "616646781f45f45dad7607481374fcfb", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "72a73bad-136d-4ff8-b763-543a98a07ddb", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_E02_1039424.CEL", 
+        "submitter_id": "c98b0f25-e19f-4a4d-a20d-17217c51137c_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69115341, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:10:37.746427-06:00", 
+        "md5sum": "4e86aa40aaaf5056c1ec4904dd65235f", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "37cfb196-bcd2-4552-9de9-0e2f3a0683fd", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "a99749f9-301f-4e2c-9387-c37e98830e04_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "b43daca3-5971-4d22-b32b-fb188a02d5ea", 
+    "created_datetime": "2020-03-11T16:27:58.357481-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446852, 
+  "md5sum": "d8f1a15898ad9030d1f7c45826ba92ae", 
+  "file_id": "79356afb-d7e0-49f4-b218-32ca500001f7", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TV-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c85f340e-584b-4f3b-b6a5-540491fc8ad2", 
+      "entity_id": "34b28b55-0a12-40a7-bb37-caa90af948d1"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TV-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c85f340e-584b-4f3b-b6a5-540491fc8ad2", 
+      "entity_id": "51c383b2-6c83-4dfd-8a42-318b6041b14b"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.51c383b2-6c83-4dfd-8a42-318b6041b14b.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.51c383b2-6c83-4dfd-8a42-318b6041b14b.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A03_1473342.CEL", 
+        "submitter_id": "491aa109-1a5c-484a-82f9-8bdd923a2326_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69047373, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:17:04.442306-06:00", 
+        "md5sum": "44511be739df4e0eff2bfebb1adfd6a4", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "0ee76ad9-9ba0-4e2e-a353-98cb8cc10085", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A05_1473312.CEL", 
+        "submitter_id": "df948969-1142-4a92-8515-fd935b32c78f_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69031429, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:27:51.055760-06:00", 
+        "md5sum": "0e418cc880f418d8c2831cb882ac7278", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "1005ba92-f34d-47b3-879f-22b32fa99d81", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "51c383b2-6c83-4dfd-8a42-318b6041b14b_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "03055ded-7f05-471d-b0b0-450f8cc4cff0", 
+    "created_datetime": "2020-03-11T16:45:45.857158-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446861, 
+  "md5sum": "cd8d4373aaaa99f0b29d6a40c49eed29", 
+  "file_id": "7aef642e-5767-472b-8e38-b37df508a535", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-8693-10A-01D-2389-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a43e5f0e-a21f-48d8-97e0-084d413680b7", 
+      "entity_id": "c91878ee-e05d-41d4-a1f2-54dc45915dab"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-8693-01A-11D-2389-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a43e5f0e-a21f-48d8-97e0-084d413680b7", 
+      "entity_id": "7964c7c4-9d9a-4f2e-a616-69d0ae7dbb05"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.7964c7c4-9d9a-4f2e-a616-69d0ae7dbb05.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.7964c7c4-9d9a-4f2e-a616-69d0ae7dbb05.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "AVISO_p_4TCGA_242_238_250_mN_GenomeWideSNP_6_D02_1231580.CEL", 
+        "submitter_id": "dd4819a1-e6e4-493a-84ca-37e8db43c100_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69154657, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:26:03.798271-06:00", 
+        "md5sum": "57f6b0bb240769c0a8dd6b334c51ce84", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "7eebc92c-21d4-4ee1-87fe-745198d4a5cc", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "AVISO_p_4TCGA_242_238_250_mN_GenomeWideSNP_6_D03_1231606.CEL", 
+        "submitter_id": "bca93a79-844c-42dd-ac10-4a88b78df9da_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69123129, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:15:17.547646-06:00", 
+        "md5sum": "d56c6b00afff2fdce214c6f149393eb4", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "3b451b62-0c69-4558-a69a-e5fa900dba4f", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "7964c7c4-9d9a-4f2e-a616-69d0ae7dbb05_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "eb3fd4c6-a59f-4949-96a2-4ebb1fb61cb9", 
+    "created_datetime": "2020-03-11T16:43:56.973889-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446867, 
+  "md5sum": "10b6a2b27beec0763f67d07c9ac944a7", 
+  "file_id": "16b4368a-a390-43ad-8647-af1a703d39e3", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-8062-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0e9fcccc-0630-408d-a121-2c6413824cb7", 
+      "entity_id": "f11679cc-d7b3-4433-bb91-4b94e586950b"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-8062-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0e9fcccc-0630-408d-a121-2c6413824cb7", 
+      "entity_id": "8eabaa4b-7f9e-4132-a341-a0797a6cdb2f"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.f11679cc-d7b3-4433-bb91-4b94e586950b.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.f11679cc-d7b3-4433-bb91-4b94e586950b.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_G02_1039416.CEL", 
+        "submitter_id": "0bdfb8e4-705d-40a4-92c7-76972eff04fd_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69079813, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:57:17.126315-06:00", 
+        "md5sum": "8fd399646ffeddf8a83a9fc2831bba02", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "86b68967-3902-4dda-ad06-c74d886b11fd", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_D11_1039576.CEL", 
+        "submitter_id": "238d5286-56d9-4eeb-9893-9633a478e1c3_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69117277, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:13:47.287999-06:00", 
+        "md5sum": "1bc23bfb5f4be10471b73d0e7c2dfef4", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "cbe7f643-7d8c-40fb-a1ee-23c703662eca", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "f11679cc-d7b3-4433-bb91-4b94e586950b_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "a5f31d05-5466-422c-9902-ee20c7c1db7f", 
+    "created_datetime": "2020-03-11T14:25:37.826321-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446864, 
+  "md5sum": "b64a01cea09c0267cccdaf2b3a83032d", 
+  "file_id": "23470b78-e344-4023-b8b6-0612e9e67dbd", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-8042-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f0a326d2-1f3e-4a5d-bca8-32aaccc52338", 
+      "entity_id": "389a882f-dba4-4a21-be50-9f211540b796"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-8042-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f0a326d2-1f3e-4a5d-bca8-32aaccc52338", 
+      "entity_id": "176c6c1e-0489-4c91-9678-a0b76d05f440"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.176c6c1e-0489-4c91-9678-a0b76d05f440.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.176c6c1e-0489-4c91-9678-a0b76d05f440.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_G07_1039412.CEL", 
+        "submitter_id": "99ec2e44-298a-4af4-99ca-5f506c1faa5b_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69082501, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:31:41.219733-06:00", 
+        "md5sum": "ccc2c740c976ce69b32d71fb561a9d47", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "536ffe3a-365d-4c6e-a961-2f5ff0ebb2eb", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F04_1039440.CEL", 
+        "submitter_id": "f2c20601-b9f2-4907-b07a-aa0c84fb0ae7_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69085649, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:42:36.687601-06:00", 
+        "md5sum": "3e03904a85d109bbee8353db58926f7c", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "0f87e8b4-b3b1-45e1-9759-6bc7711eb7d4", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "176c6c1e-0489-4c91-9678-a0b76d05f440_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "ee941bc7-a387-4f9b-9e45-96e130b90202", 
+    "created_datetime": "2020-03-11T17:00:42.212741-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446835, 
+  "md5sum": "a7794915f399c46558d41f2c1617a6f7", 
+  "file_id": "7f28b8bd-93e4-4c0b-907c-1dacb5cfa06e", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-RQ-AAAT-01A-11D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "4dd86ebd-ef16-4b2b-9ea0-5d1d7afef257", 
+      "entity_id": "bbe9854a-d1df-4487-9f90-3fe8dc9d93e2"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-RQ-AAAT-10A-01D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "4dd86ebd-ef16-4b2b-9ea0-5d1d7afef257", 
+      "entity_id": "fbf3e7df-5cf4-4067-9faa-0efc69155ee8"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.bbe9854a-d1df-4487-9f90-3fe8dc9d93e2.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.bbe9854a-d1df-4487-9f90-3fe8dc9d93e2.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C04_1486398.CEL", 
+        "submitter_id": "ba81a826-daa5-4d86-bdde-e87de83cd5ad_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69069281, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:20:13.044787-06:00", 
+        "md5sum": "736c77cf51f8a727b870fc7b1dbdeaf3", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "94f3cfdd-8088-4234-8329-7851759faed2", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C05_1486394.CEL", 
+        "submitter_id": "e3d0d57a-44af-440b-9f45-ec9b2273ebcf_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69069449, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:30:58.929755-06:00", 
+        "md5sum": "a00d80a56f2ab571357c54f3eadce336", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "37bf8198-8923-4939-9b10-7f00de1ee61c", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "bbe9854a-d1df-4487-9f90-3fe8dc9d93e2_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "07df12e8-ffec-4654-a380-7eb5dee433aa", 
+    "created_datetime": "2020-03-11T16:48:58.715065-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3447140, 
+  "md5sum": "e3250e46a5a965a75b018672b076f070", 
+  "file_id": "10dede2d-3a35-46a6-ab04-cd578483f2f1", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-A7CQ-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f553f1a9-ecf2-4783-a609-6adca7c4c597", 
+      "entity_id": "8fc3e2d5-1935-4661-bc3f-c51987841d1c"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-A7CQ-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f553f1a9-ecf2-4783-a609-6adca7c4c597", 
+      "entity_id": "d311b2e2-a5f0-43ba-a675-7ca6f385924d"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.d311b2e2-a5f0-43ba-a675-7ca6f385924d.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.d311b2e2-a5f0-43ba-a675-7ca6f385924d.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A06_1473336.CEL", 
+        "submitter_id": "3561e88e-e97d-4df9-a89f-fdff2743e1fc_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69046709, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:35:37.659272-06:00", 
+        "md5sum": "c6176a30e21935fdc13c1c439dd892ac", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "99ebdd2f-325e-4cfd-85fb-b318d8a5398d", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A07_1473378.CEL", 
+        "submitter_id": "aa319af2-e375-49dc-9ac8-f9050898decc_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69056881, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:47:15.524221-06:00", 
+        "md5sum": "d161cef9b58d5810bdc97f44c921c344", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "7981d4b0-45a5-4acd-a33b-18a669673a7a", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "d311b2e2-a5f0-43ba-a675-7ca6f385924d_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "a40df43b-f4dd-470d-a79b-e08709dc97aa", 
+    "created_datetime": "2020-03-11T16:04:05.017165-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446864, 
+  "md5sum": "299922b8b32278b60816a3bd880493ff", 
+  "file_id": "8c86ab7c-3476-42da-a8fc-34ed8853b0c9", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-A7CW-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1d0db5d7-39ca-466d-96b3-0d278c5ea768", 
+      "entity_id": "abdcc62d-d5fd-4e50-920c-104bc4fb52a5"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-A7CW-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1d0db5d7-39ca-466d-96b3-0d278c5ea768", 
+      "entity_id": "9f8a820f-7c52-4f68-9b84-17d908c1a02d"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.abdcc62d-d5fd-4e50-920c-104bc4fb52a5.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.abdcc62d-d5fd-4e50-920c-104bc4fb52a5.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A11_1473346.CEL", 
+        "submitter_id": "8e28b5aa-7b3b-4bb0-844b-111dd30dd2ca_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69046817, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:28:55.107959-06:00", 
+        "md5sum": "51a740cfc504171ba398016a64d7cad3", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "7553d140-7342-4194-9b72-14a577ce8467", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A10_1473452.CEL", 
+        "submitter_id": "5dcfe39e-6e7b-4da8-aab4-33e94ccad78e_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69049629, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:15:35.881495-06:00", 
+        "md5sum": "f89c9d2c6c91c70b25ef87765cbb3e29", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "b7b59c51-51ed-4e3c-8f2d-8871e32824a8", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "abdcc62d-d5fd-4e50-920c-104bc4fb52a5_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "9f550318-9e9b-45d9-a464-36de7847ffe2", 
+    "created_datetime": "2020-03-11T15:44:14.631948-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446696, 
+  "md5sum": "9b426d6922e5039299f682c179fc9ee9", 
+  "file_id": "d7b51973-2679-4851-87c4-933d6bb64f36", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GR-A4D9-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "5eff68ff-f6c3-40c9-9fc8-00e684a7b712", 
+      "entity_id": "7512dad9-2d8e-4c2e-8feb-1e646601cdbe"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GR-A4D9-01B-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "5eff68ff-f6c3-40c9-9fc8-00e684a7b712", 
+      "entity_id": "6252dc79-abd5-4313-8d01-7f2b3e0cfbd9"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.6252dc79-abd5-4313-8d01-7f2b3e0cfbd9.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.6252dc79-abd5-4313-8d01-7f2b3e0cfbd9.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H07_1364938.CEL", 
+        "submitter_id": "d0f821fb-91cc-4926-8374-0922ef170c69_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69102185, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:39:28.890955-06:00", 
+        "md5sum": "79fe6beb1a449b508916e93d7b9785c3", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "4d901ba8-9ab1-44e7-9589-cbbd25cd7c48", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H08_1364952.CEL", 
+        "submitter_id": "fd5ebec2-d0a5-4c36-8b93-d5d7da21a159_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69093277, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:50:31.954129-06:00", 
+        "md5sum": "3d85a276db042056c5378110ab7aadeb", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "dcd3a3d5-b1fc-4d71-a184-aea766b3fc6b", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "6252dc79-abd5-4313-8d01-7f2b3e0cfbd9_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "af8272a9-d34f-421d-a8e4-8aaa0cd33805", 
+    "created_datetime": "2020-03-11T17:08:38.736734-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446816, 
+  "md5sum": "825199d1604b8cd8e59d7de7345fa5c8", 
+  "file_id": "279fb04e-78d3-4086-8781-eec767450a20", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-VB-A8QN-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a6923479-4e68-4ea8-87ed-e9642b9d43d5", 
+      "entity_id": "8a97f194-6912-4598-86f6-824060fd0324"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-VB-A8QN-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a6923479-4e68-4ea8-87ed-e9642b9d43d5", 
+      "entity_id": "ccb9f6eb-643c-4dea-9da2-1262dd6115ea"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.ccb9f6eb-643c-4dea-9da2-1262dd6115ea.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.ccb9f6eb-643c-4dea-9da2-1262dd6115ea.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B06_1473396.CEL", 
+        "submitter_id": "ede426ca-335a-4496-b054-83b4c116a058_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69120565, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:54:06.318788-06:00", 
+        "md5sum": "6c8bd6a5121814fcea19074f5a2a59d8", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "5a483607-9d85-4325-bc3f-5de5d27b6710", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B07_1473350.CEL", 
+        "submitter_id": "1fad5051-f1a9-4e22-a7d0-b992ef3bdafe_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69115605, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:10:40.603821-06:00", 
+        "md5sum": "a7fe5972762ab196476f735896a26232", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "c2a4939d-17bf-4698-b812-f83a8f69547d", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "ccb9f6eb-643c-4dea-9da2-1262dd6115ea_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "763df040-af6d-448e-bcf8-1de5e1f6aaf9", 
+    "created_datetime": "2020-03-11T14:22:21.348524-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446816, 
+  "md5sum": "280b3b952a4892056e22a15b963a1108", 
+  "file_id": "e30b859e-4f55-497c-942f-2cda23746c95", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GR-A4D5-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f855dad1-6ffc-493e-ba6c-970874bc9210", 
+      "entity_id": "53c9fced-c93e-4aba-8db4-463baf4bd60d"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GR-A4D5-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f855dad1-6ffc-493e-ba6c-970874bc9210", 
+      "entity_id": "df09610a-a75c-4632-8baf-7e9f9d364034"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.df09610a-a75c-4632-8baf-7e9f9d364034.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.df09610a-a75c-4632-8baf-7e9f9d364034.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-GR-A4D5-10A-01D-A31W-01", 
+      "notes": "The aliquot failed Broad pipeline QC and not all files are suitable for use. Consult the SDRF file to determine which files are usable.", 
+      "submitter_id": "29095", 
+      "classification": "CenterNotification", 
+      "entity_id": "53c9fced-c93e-4aba-8db4-463baf4bd60d", 
+      "created_datetime": "2015-09-28T00:00:00", 
+      "annotation_id": "4b9ca1b4-1d6f-5cb0-b841-4d48d2efbe7a", 
+      "entity_type": "aliquot", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "f855dad1-6ffc-493e-ba6c-970874bc9210", 
+      "state": "released", 
+      "category": "Item flagged DNU", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H04_1364844.CEL", 
+        "submitter_id": "7adb248a-60d9-43d3-9737-fc5c5c9f995a_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69092041, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:15:29.016838-06:00", 
+        "md5sum": "cfbadc867af8d7920c9b7e66213ff42e", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "d17e2cf2-a3c4-401d-aba6-cf610373c0a7", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H03_1364808.CEL", 
+        "submitter_id": "876d0916-a212-49ea-a934-d26460d38c72_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69131137, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:01:41.450826-06:00", 
+        "md5sum": "6cdbecb4f8b6b5c48a7165e46ca421d9", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "e6c5ca60-02b0-4ee4-a30e-d853f5b03cad", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "df09610a-a75c-4632-8baf-7e9f9d364034_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "b3eb7ad5-30bc-4ed3-8aa0-83dfba586108", 
+    "created_datetime": "2020-03-11T15:30:37.045564-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446867, 
+  "md5sum": "0f6c7d290f9a0c38c88b26ec4520e3bc", 
+  "file_id": "3a138a9a-3a4e-47d6-929c-e5f27a1cfeee", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-8041-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1f971af1-6772-4fe6-8d35-bbe527a037fe", 
+      "entity_id": "72f558fb-f25d-4cd8-9214-f74a547f783c"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-8041-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1f971af1-6772-4fe6-8d35-bbe527a037fe", 
+      "entity_id": "458334a1-8019-488a-b8e6-58d02f0c3e57"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.72f558fb-f25d-4cd8-9214-f74a547f783c.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.72f558fb-f25d-4cd8-9214-f74a547f783c.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_D10_1039584.CEL", 
+        "submitter_id": "7fa7581c-6dda-49d6-9129-a48f3b31dd08_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69113853, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:18:54.336872-06:00", 
+        "md5sum": "912015772dca0a59c89bfa4ff40dff59", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "08cce5f3-b322-4f32-b362-1a00c13ac26a", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F07_1039408.CEL", 
+        "submitter_id": "ee94c897-d184-4a79-b0e9-588a79fab748_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69079617, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:05:16.956336-06:00", 
+        "md5sum": "2e75624fa58fc812447e2ae77507debc", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "e21752f6-d90f-4641-aea2-9ef53d5faf82", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "72f558fb-f25d-4cd8-9214-f74a547f783c_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "b24a16bb-3895-4e8a-af10-b989de012322", 
+    "created_datetime": "2020-03-11T15:34:02.835038-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446861, 
+  "md5sum": "4aa4971b27fc6241f848b97dbceecda6", 
+  "file_id": "e351cd10-39f6-422c-85ec-9dab921b7516", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A7DS-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "ed746cb9-0f2f-48ce-923a-3a9f9f00b331", 
+      "entity_id": "4eeb1683-19c9-4734-b5f8-1b916a9c6f45"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A7DS-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "ed746cb9-0f2f-48ce-923a-3a9f9f00b331", 
+      "entity_id": "1a9e3d3f-2ec3-40c3-a03c-20aa704dc076"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.4eeb1683-19c9-4734-b5f8-1b916a9c6f45.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.4eeb1683-19c9-4734-b5f8-1b916a9c6f45.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B11_1473374.CEL", 
+        "submitter_id": "baf6f442-02c3-49ea-aef3-3427ddb1fe65_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69056409, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:59:39.344390-06:00", 
+        "md5sum": "581ab99d5064f6063cc0fb1542b3340b", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "6a715934-18d5-4c0e-bebb-9ff0334ec279", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B10_1473372.CEL", 
+        "submitter_id": "8bafd172-3358-4d16-9521-0c6202213edf_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69121245, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:48:21.199510-06:00", 
+        "md5sum": "fa1702e59b59dd405e1ee72489b6ea5b", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "07f53ac4-a842-4ffa-ac31-c2c2fe58f764", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "4eeb1683-19c9-4734-b5f8-1b916a9c6f45_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "e4a97ad0-efdf-4605-9f1e-5fbdf49961d7", 
+    "created_datetime": "2020-03-11T16:16:48.022607-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446840, 
+  "md5sum": "b2b8a861da59b4796e41d17f961035b0", 
+  "file_id": "0d5ff09a-af75-4911-a36c-eeb20fce7208", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A7Q1-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0030a28c-81aa-44b0-8be0-b35e1dcbf98c", 
+      "entity_id": "ac026569-058b-4457-833f-8021feda1009"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A7Q1-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0030a28c-81aa-44b0-8be0-b35e1dcbf98c", 
+      "entity_id": "ab2545cd-58e0-49ff-8408-7db9a5ad54aa"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.ac026569-058b-4457-833f-8021feda1009.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.ac026569-058b-4457-833f-8021feda1009.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_C03_1473450.CEL", 
+        "submitter_id": "5a8a9980-dee5-436b-9361-556f27dcd306_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69055257, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:53:50.076410-06:00", 
+        "md5sum": "954ae6e7786e1593a930a416bd060e08", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "45d98636-0c33-4391-9a42-734956439e89", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_C02_1473348.CEL", 
+        "submitter_id": "34ca2348-4063-4279-8b6f-a219f51142e0_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69043745, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:38:43.321570-06:00", 
+        "md5sum": "e7df1e65ce5c7367fae5a366244dd792", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "4cac0a4e-a542-45f1-b52f-85a7e63fb9a5", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "ac026569-058b-4457-833f-8021feda1009_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "3713b2cd-ce49-40fe-b3c5-3824249be78a", 
+    "created_datetime": "2020-03-11T15:08:20.595565-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446744, 
+  "md5sum": "c21aa9a28ad9b2a57d2014e41e599611", 
+  "file_id": "b6d8b0d8-2e7d-45eb-a2d3-1eae20f89657", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-A7CX-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "29e3d122-15a1-4235-a356-b1a9f94ceb39", 
+      "entity_id": "d9d9d42c-f722-4a2d-841f-b98e2f1014b1"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-A7CX-01A-12D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "29e3d122-15a1-4235-a356-b1a9f94ceb39", 
+      "entity_id": "39011b0a-65a5-4f28-8269-6e15fb1e2b67"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.39011b0a-65a5-4f28-8269-6e15fb1e2b67.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.39011b0a-65a5-4f28-8269-6e15fb1e2b67.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B08_1473364.CEL", 
+        "submitter_id": "273942dd-968d-4773-9cc0-588af8926ee7_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69123973, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:44:05.521020-06:00", 
+        "md5sum": "4f46d35c843e09edfa759166c5f67381", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "245d12ec-3f92-4930-9426-e91abf563fb5", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_B09_1473338.CEL", 
+        "submitter_id": "b524bed5-f0fb-4c6a-9a99-8f2001cb2117_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69050049, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:55:31.728034-06:00", 
+        "md5sum": "5ef2c2c3506e0a224e440d3aef0980ac", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "290e186b-4bc7-4008-bc75-ede102d5f108", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "39011b0a-65a5-4f28-8269-6e15fb1e2b67_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "a69ea2bd-9765-4ab3-9d38-b151cd6ecb09", 
+    "created_datetime": "2020-03-11T16:12:37.130220-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446861, 
+  "md5sum": "c7a7cfd7d08cb6d5c22c96501842d03f", 
+  "file_id": "2d0f12cc-6250-46c3-b1ae-24cdb9007ce5", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TT-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "33365d22-cb83-4d8e-a2d1-06b675f75f6e", 
+      "entity_id": "0eba1185-b31d-4741-bc53-ef855f74ffb8"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TT-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "33365d22-cb83-4d8e-a2d1-06b675f75f6e", 
+      "entity_id": "c7823372-b451-4159-9cb8-d4de8479bda8"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.c7823372-b451-4159-9cb8-d4de8479bda8.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.c7823372-b451-4159-9cb8-d4de8479bda8.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_C07_1473454.CEL", 
+        "submitter_id": "ecbb9206-8f1e-4809-a4c3-43e5cc602745_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69127425, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:37:35.207247-06:00", 
+        "md5sum": "2c736fb1eae2a2bc34ec17b16e8a73ee", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "66c7f5d7-66a3-4202-b8ea-212b18b7cea2", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_C06_1473410.CEL", 
+        "submitter_id": "cbe6b370-6d7b-4046-b36a-6f2c31929dca_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69070893, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:26:46.456992-06:00", 
+        "md5sum": "e483f901f88931608f3de390ce8b2af1", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "5470939a-ffcb-4fcd-a9eb-15e917738ee9", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "c7823372-b451-4159-9cb8-d4de8479bda8_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "9d40309b-a6c8-4d29-aa9c-8c1df2bc6768", 
+    "created_datetime": "2020-03-11T16:55:33.947580-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446867, 
+  "md5sum": "6589c990f1d3cd7b4fa7c23c6b271ceb", 
+  "file_id": "dd538c68-8744-4f6d-ba26-624fd1385a9e", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FM-8000-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "e56e4d9c-052e-4ec6-a81b-dbd53e9c8ffe", 
+      "entity_id": "aecc57f5-9e3a-4d25-96fb-f1ea22766365"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FM-8000-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "e56e4d9c-052e-4ec6-a81b-dbd53e9c8ffe", 
+      "entity_id": "447f9c21-4fe0-4b52-a5d5-78668e443665"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.447f9c21-4fe0-4b52-a5d5-78668e443665.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.447f9c21-4fe0-4b52-a5d5-78668e443665.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F10_1039454.CEL", 
+        "submitter_id": "e431c5f6-2e88-4348-9f7a-73a9ba27dd44_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69077993, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:31:20.238858-06:00", 
+        "md5sum": "8402d3fb46496db53649ef42bb3b384e", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "f7937869-4a5a-4ba5-bba7-09fe19d115ea", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_A11_1039474.CEL", 
+        "submitter_id": "4043f4c8-77f7-4e10-b92d-639a8a96e5ab_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69085465, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:20:34.582086-06:00", 
+        "md5sum": "262711b7ec92917f5e1233c2b18d4975", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "8663de29-4323-42d7-9518-330f8d52bcd8", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "447f9c21-4fe0-4b52-a5d5-78668e443665_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "8517e87e-b2c1-4ac3-99d6-d6108766c9bf", 
+    "created_datetime": "2020-03-11T16:49:21.264124-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446807, 
+  "md5sum": "e48c6ffdeae02949757474c902cedd8e", 
+  "file_id": "e4d22a91-8cdb-4b07-ad91-ee19d9fc93d8", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9TU-01A-11D-A381-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1ea575f1-f731-408b-a629-f5f4abab569e", 
+      "entity_id": "02841f4a-92df-47d3-bb8e-1b521b3d06ee"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9TU-10A-01D-A384-01", 
+      "entity_type": "aliquot", 
+      "case_id": "1ea575f1-f731-408b-a629-f5f4abab569e", 
+      "entity_id": "c2f158c4-67a9-41ad-b2cb-cefe8a093388"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.02841f4a-92df-47d3-bb8e-1b521b3d06ee.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.02841f4a-92df-47d3-bb8e-1b521b3d06ee.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A09_1473382.CEL", 
+        "submitter_id": "0c66a2f1-d797-4789-a600-a8bebc9b5b10_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69113693, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T11:52:02.254282-06:00", 
+        "md5sum": "c0e9d220a6294cf2606d505257b4b9fa", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "18db0704-991b-41e2-a159-cff790af4e81", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "VOLAR_p_TCGAb_397_398_399_NSP_GenomeWideSNP_6_A08_1473300.CEL", 
+        "submitter_id": "d1446cee-5b76-4c0c-8644-dfce51beb9fe_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69117913, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:38:54.018553-06:00", 
+        "md5sum": "2b9e3532d2430b1b673f8e7cd5ff6a44", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "89ee3c33-cf3b-4080-9158-4d1ea98b2419", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "02841f4a-92df-47d3-bb8e-1b521b3d06ee_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "af4f0155-dbf9-498d-8897-84409b2a8e36", 
+    "created_datetime": "2020-03-11T14:07:18.048895-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3450186, 
+  "md5sum": "4f8f0f2f1aca5b9ba93d31720608cbfc", 
+  "file_id": "498d0ce0-af35-4842-b8e0-a96e3d79d621", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FF-8047-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f978cb0f-d319-4c01-b4c5-23ae1403a106", 
+      "entity_id": "4caddbad-d310-49af-9c4d-5ec4388b0c21"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FF-8047-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f978cb0f-d319-4c01-b4c5-23ae1403a106", 
+      "entity_id": "5b1bff34-5c81-4139-9f22-01c256754e2d"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.5b1bff34-5c81-4139-9f22-01c256754e2d.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.5b1bff34-5c81-4139-9f22-01c256754e2d.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_G06_1039508.CEL", 
+        "submitter_id": "06dd157e-1599-4935-b148-0011f17ab10c_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69088749, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T11:47:47.209862-06:00", 
+        "md5sum": "da1ad0d39a528bc2ed96803a58f68242", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "522d24a6-44ee-4c47-a0e4-a27343ee91b9", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_G05_1039486.CEL", 
+        "submitter_id": "1252da19-f8f1-44b3-84e5-4faf3063e62d_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69085701, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:34:38.055303-06:00", 
+        "md5sum": "9b12828a0b491e3d7a54b0b686bad952", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "ecc6508d-854f-405d-9883-f6827ebf19b4", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "5b1bff34-5c81-4139-9f22-01c256754e2d_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "72cae2ca-447c-4e5b-98ba-11535e7f3de7", 
+    "created_datetime": "2020-03-11T14:02:31.056505-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446831, 
+  "md5sum": "d5130b199ec36455cfca307c776f95ca", 
+  "file_id": "294cfbc4-9b90-4c1a-802b-4f61de80919c", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GR-A4D6-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c1c06604-5ae2-4a53-b9c0-eb210d38e3f0", 
+      "entity_id": "20e35c51-39e1-43fc-bda2-2a3ec219545e"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GR-A4D6-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c1c06604-5ae2-4a53-b9c0-eb210d38e3f0", 
+      "entity_id": "0e7da9e6-adb1-41a5-9259-4b8d3b120d6d"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.20e35c51-39e1-43fc-bda2-2a3ec219545e.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.20e35c51-39e1-43fc-bda2-2a3ec219545e.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H05_1364898.CEL", 
+        "submitter_id": "f6edab9d-33b9-4e1f-b9bf-b3460fed685f_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69070021, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:45:53.343358-06:00", 
+        "md5sum": "939f488fd368b4cabfe0f6d59d0b98c8", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "4b57e82c-c8c0-48c2-82f5-c7086e870368", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_H06_1364906.CEL", 
+        "submitter_id": "ebc993ab-cbce-4778-87e4-d1186ce4c715_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69082097, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:34:53.261109-06:00", 
+        "md5sum": "2b93ca1bd925a8b80c2ee37e0c7c6aa0", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "2ee14a41-c887-4ead-9647-f778c5554b53", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "20e35c51-39e1-43fc-bda2-2a3ec219545e_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "ff865b7d-a5ce-4553-aece-bc9d9ff7cd7f", 
+    "created_datetime": "2020-03-11T17:03:58.045098-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446822, 
+  "md5sum": "27ef7ba12abdc72cc37fbc05eb553fb4", 
+  "file_id": "6f7f9b34-d1af-4def-84b1-a5ef9b2677b0", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GR-7353-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c3d662ee-48d0-454a-bb0c-77d3338d3747", 
+      "entity_id": "48face85-4dac-4fec-9524-ecef10f850ec"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GR-7353-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "c3d662ee-48d0-454a-bb0c-77d3338d3747", 
+      "entity_id": "86638ccc-31b4-45c8-bb1c-0dfb077ac732"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.48face85-4dac-4fec-9524-ecef10f850ec.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.48face85-4dac-4fec-9524-ecef10f850ec.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_A10_1039456.CEL", 
+        "submitter_id": "52d1192b-23ce-4920-9c65-ac8ebb1e3b57_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69080801, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:48:13.916298-06:00", 
+        "md5sum": "97560689b6bfca3d7b5d1fb5a697e68b", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "03fe5d53-8f41-48a0-896c-cb4a2a53b852", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_B10_1039494.CEL", 
+        "submitter_id": "13a18a36-7295-44a3-bf91-72cab93ee0bd_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69102601, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:32:43.285275-06:00", 
+        "md5sum": "500c9e66e18f47072c0a31d8bd6233c9", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "7e25a953-c904-4cb8-9c00-3e531c5bfd2b", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "48face85-4dac-4fec-9524-ecef10f850ec_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "94ccf42d-799a-4925-bf91-49bb6ce67052", 
+    "created_datetime": "2020-03-11T15:02:31.277110-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446745, 
+  "md5sum": "88e98a5c54bf78b0b06cc19d7f1dd5d8", 
+  "file_id": "c445b728-3a7a-42c9-a5dc-40300b0c10e2", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G8-6909-14A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a468e725-ad4b-411d-ac5c-2eacc68ec580", 
+      "entity_id": "f368c36c-b1dd-47bf-95e2-f9574f706176"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G8-6909-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a468e725-ad4b-411d-ac5c-2eacc68ec580", 
+      "entity_id": "7c1555c9-336c-474b-997a-5d6229e3469e"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.7c1555c9-336c-474b-997a-5d6229e3469e.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.7c1555c9-336c-474b-997a-5d6229e3469e.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_G04_1039578.CEL", 
+        "submitter_id": "7f6a6030-7b2e-47b8-82b2-0b390785d2d4_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69080581, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:18:43.675778-06:00", 
+        "md5sum": "d4add67333e28620b278e74709c1a4af", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "1fc67e09-a67c-4529-94e5-b653cf59a619", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F12_1039466.CEL", 
+        "submitter_id": "54775140-0dea-43d9-ae95-87834641ba58_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69086605, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:05:06.325664-06:00", 
+        "md5sum": "c40edbe089c9651989a12196fb193fa6", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "c7bbf939-d27f-418a-bd46-22aea42d7150", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "7c1555c9-336c-474b-997a-5d6229e3469e_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "aad7368d-816d-419a-86ac-765033dc9e65", 
+    "created_datetime": "2020-03-11T15:33:52.940943-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446846, 
+  "md5sum": "d002b39a0af96e7302aa09d97e4d306d", 
+  "file_id": "29f6602e-a5e6-44f0-ba75-37346de1e4bf", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A4XK-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a5b188f0-a6d3-4d4a-b04f-36d47ec05338", 
+      "entity_id": "765aca57-97d6-401a-ae6e-8670c753eb0a"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A4XK-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "a5b188f0-a6d3-4d4a-b04f-36d47ec05338", 
+      "entity_id": "11a0c00c-e587-4e6f-a50a-8952a3a02168"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.11a0c00c-e587-4e6f-a50a-8952a3a02168.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.11a0c00c-e587-4e6f-a50a-8952a3a02168.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "annotations": [
+    {
+      "entity_submitter_id": "TCGA-FA-A4XK-10A-01D-A31W-01", 
+      "notes": "The aliquot failed Broad pipeline QC and not all files are suitable for use. Consult the SDRF file to determine which files are usable.", 
+      "submitter_id": "29096", 
+      "classification": "CenterNotification", 
+      "entity_id": "765aca57-97d6-401a-ae6e-8670c753eb0a", 
+      "created_datetime": "2015-09-28T00:00:00", 
+      "annotation_id": "2670b035-4c25-522e-9ac1-fa1af66b5a4b", 
+      "entity_type": "aliquot", 
+      "updated_datetime": "2018-08-23T16:32:20.747393-05:00", 
+      "case_id": "a5b188f0-a6d3-4d4a-b04f-36d47ec05338", 
+      "state": "released", 
+      "category": "Item flagged DNU", 
+      "status": "Approved"
+    }
+  ], 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G08_1364920.CEL", 
+        "submitter_id": "14617377-88ca-43e8-bb79-34a5c77b7528_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69066353, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:01:53.912116-06:00", 
+        "md5sum": "f82fc3c439c30a914bb032c8ae686dcb", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "01eccdd7-746b-442d-a7c5-6dfefcadfebc", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G07_1364908.CEL", 
+        "submitter_id": "2cfab33c-fef0-4945-85ee-e74fce9a0fe3_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69089945, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:44:39.059059-06:00", 
+        "md5sum": "e5266f283e4b956a01c4c8b04f4f629e", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "cb53562d-c5d6-4a20-8b16-a7898a9db1cd", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "11a0c00c-e587-4e6f-a50a-8952a3a02168_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "72e4fe8b-3808-4bcc-9cac-7da5bc34168b", 
+    "created_datetime": "2020-03-11T14:13:13.016476-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446690, 
+  "md5sum": "5c8a9202baac3991c8918b4ba5141cdc", 
+  "file_id": "0c7c2e5a-2eca-4212-94b4-8c1c68543712", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G8-6326-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f8cf647b-1447-4ac3-8c43-bef07765cabf", 
+      "entity_id": "eaf5901f-476e-4e53-a003-2aa684d0e0e0"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G8-6326-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "f8cf647b-1447-4ac3-8c43-bef07765cabf", 
+      "entity_id": "d02f91e7-afde-45b3-bb4e-62bbff8be6e0"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.d02f91e7-afde-45b3-bb4e-62bbff8be6e0.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.d02f91e7-afde-45b3-bb4e-62bbff8be6e0.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_D02_1039480.CEL", 
+        "submitter_id": "c5590d7f-043d-4bea-9bd5-e02a02611337_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69103229, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:07:24.233673-06:00", 
+        "md5sum": "4bc057e5ba5b1e1c6b8fe93ef8b63006", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "9f7c98fa-aa2e-4fe1-81f3-21d672b94563", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_F02_1039532.CEL", 
+        "submitter_id": "267f66ac-1cad-4d27-8143-59a14199bb94_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69093965, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:56:09.389085-06:00", 
+        "md5sum": "4a9652209f1e890f1f3012c6306fdd2e", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "2622cb25-6cd2-4a03-93fc-c672b2e0df36", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "d02f91e7-afde-45b3-bb4e-62bbff8be6e0_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "07f2c4ec-f356-4fca-b026-577884371073", 
+    "created_datetime": "2020-03-11T16:24:32.564318-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446843, 
+  "md5sum": "cf43902e12aa1df1a21943ab16dd8b45", 
+  "file_id": "a1cd4d70-0ef3-4d28-80fb-973cd814f135", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G8-6907-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "31bbad4e-3789-42ec-9faa-1cb86970f723", 
+      "entity_id": "e585b60e-1bce-4527-8d71-462c0fb3cb3d"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G8-6907-14A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "31bbad4e-3789-42ec-9faa-1cb86970f723", 
+      "entity_id": "622d9d9e-ce4e-4dbd-899c-941fbfceef2e"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.e585b60e-1bce-4527-8d71-462c0fb3cb3d.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.e585b60e-1bce-4527-8d71-462c0fb3cb3d.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_E07_1039560.CEL", 
+        "submitter_id": "77a4809c-dfdc-445a-9a38-f45b42c891b0_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69128609, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:13:24.843126-06:00", 
+        "md5sum": "80815082a94d0849cdf86916e6e0d02e", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "be08979e-1534-4ea6-bae0-8e6f3eb678de", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_E12_1039438.CEL", 
+        "submitter_id": "84933590-9b07-4d9b-8c8f-06890992576e_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69077497, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T17:59:30.306557-06:00", 
+        "md5sum": "e235ca2fe60a39a1580fa5cde1a20467", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "a68ecf7c-96c7-40d2-8e35-d6bdb997fb37", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "e585b60e-1bce-4527-8d71-462c0fb3cb3d_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "8e9a7d03-0655-4bb1-a766-c1c13d13d5d9", 
+    "created_datetime": "2020-03-11T15:28:30.008536-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446819, 
+  "md5sum": "b86b5842e1d984ee4a50934cc9ac4a34", 
+  "file_id": "0ca136a0-b049-46de-89ab-74d14da9d1ea", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-FA-A6HN-10A-01D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0bf573ac-cd1e-42d8-90cf-b30d7b08679c", 
+      "entity_id": "25ac3d90-e2c2-4ea1-a5bb-8a6206f2c07b"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-FA-A6HN-01A-11D-A31W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0bf573ac-cd1e-42d8-90cf-b30d7b08679c", 
+      "entity_id": "4c31c45b-b980-4a49-9237-f3d65a216956"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.4c31c45b-b980-4a49-9237-f3d65a216956.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.4c31c45b-b980-4a49-9237-f3d65a216956.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G10_1364968.CEL", 
+        "submitter_id": "1ea88430-f569-42b6-8c1a-dd8764b50854_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69065321, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T13:09:52.883095-06:00", 
+        "md5sum": "30c8ee509139bddfdd5fb3bb1c1eb4e7", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "6f91ade6-7b21-4353-81d8-512ce81bd248", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "SWEDE_p_TCGAb322_23_24_25_26NSP_GenomeWideSNP_6_G09_1364886.CEL", 
+        "submitter_id": "bf9213eb-1b0d-4e2a-86f6-48c769087f6a_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69061365, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T16:53:17.984451-06:00", 
+        "md5sum": "81481402f9f2ec728764b2b0b3ba4bdf", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "dfbe9d45-572c-4d89-a7c4-88649722f717", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "4c31c45b-b980-4a49-9237-f3d65a216956_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "5f7a51a1-c535-4b32-8f47-3b015b4c56c3", 
+    "created_datetime": "2020-03-11T14:21:31.528711-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446864, 
+  "md5sum": "805e064cbca1c6a078632936591aa56f", 
+  "file_id": "d7caafc6-383c-46d7-bf0e-79cd9294d845", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G8-6914-14A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "3622cf29-600f-4410-84d4-a9afeb41c475", 
+      "entity_id": "8f8eb4b4-64cf-4199-8d89-0bcb1357b9c9"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G8-6914-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "3622cf29-600f-4410-84d4-a9afeb41c475", 
+      "entity_id": "1f8c5cb0-4040-49b8-b51d-da8cf0529a6a"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.1f8c5cb0-4040-49b8-b51d-da8cf0529a6a.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.1f8c5cb0-4040-49b8-b51d-da8cf0529a6a.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_A08_1039526.CEL", 
+        "submitter_id": "bd647782-d4c6-4653-a721-624092d70c21_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69077997, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T18:15:34.996932-06:00", 
+        "md5sum": "4002f7330339d2fe4eb22cc58efc7db3", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "e48678e3-de32-42d2-8722-f1fd016e7ced", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "CENTS_p_TCGASNP_212_216_217_N_GenomeWideSNP_6_G03_1039550.CEL", 
+        "submitter_id": "8e264df1-383a-4366-bbb5-b825e62c822f_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69075265, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T14:28:54.179393-06:00", 
+        "md5sum": "39310b3a8e911863d689c62347c4b041", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "c50d87d7-9310-4060-9b07-be0ab36b28b0", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "1f8c5cb0-4040-49b8-b51d-da8cf0529a6a_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "4f927069-bd80-4a28-928e-d5646b814383", 
+    "created_datetime": "2020-03-11T15:44:13.702094-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446840, 
+  "md5sum": "608527dcdaa8030970a699fda91c8a83", 
+  "file_id": "afe9d7ae-5c22-473d-bfc3-7eb8072b7b0a", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-GS-A9U4-01A-11D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0e251c03-bf86-4ed8-b45d-3cbc97160502", 
+      "entity_id": "66177c56-58d2-48cb-a7aa-c3f5ee437e39"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-GS-A9U4-10A-01D-A38W-01", 
+      "entity_type": "aliquot", 
+      "case_id": "0e251c03-bf86-4ed8-b45d-3cbc97160502", 
+      "entity_id": "68230acd-4867-4ad9-9740-53c09de88d01"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.66177c56-58d2-48cb-a7aa-c3f5ee437e39.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.66177c56-58d2-48cb-a7aa-c3f5ee437e39.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C11_1486392.CEL", 
+        "submitter_id": "e9e4cbfb-4365-49ca-8ddb-dd6e525136e5_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69119629, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:35:25.168767-06:00", 
+        "md5sum": "6cde07399cba9493d1090dd7cbc4deb7", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "32fdee59-1d47-4134-bdc0-11fb5d5646a4", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "NIZAM_p_TCGAb_406_07_08_09_10_N_GenomeWideSNP_6_C10_1486464.CEL", 
+        "submitter_id": "125d93df-9c73-49bf-91cb-66a94ce25cdc_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69109921, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:24:38.654923-06:00", 
+        "md5sum": "1e0e7db731f94cb04ea15a4f5fcaf067", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "b8a2c765-adcc-407b-97cf-a4a2944463eb", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "66177c56-58d2-48cb-a7aa-c3f5ee437e39_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "9e5dd885-156d-4f37-bfad-856864f7bb66", 
+    "created_datetime": "2020-03-11T16:53:23.898420-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446838, 
+  "md5sum": "800f7419526815a4fe1eadfa3f372a59", 
+  "file_id": "7ad025c7-5e67-44c2-8a40-1498dcd9fa76", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+},{
+  "data_format": "TXT", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-G8-6324-01A-11D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "6a21c948-cd85-4150-8c01-83017d7dc1ed", 
+      "entity_id": "758d194c-244a-41b7-9e09-1bea5017cefd"
+    }, 
+    {
+      "entity_submitter_id": "TCGA-G8-6324-10A-01D-2209-01", 
+      "entity_type": "aliquot", 
+      "case_id": "6a21c948-cd85-4150-8c01-83017d7dc1ed", 
+      "entity_id": "0d5541ad-298d-4fab-8865-81c90d3a037b"
+    }
+  ], 
+  "file_name": "TCGA-DLBC.758d194c-244a-41b7-9e09-1bea5017cefd.gene_level_copy_number.v36.tsv", 
+  "submitter_id": "TCGA-DLBC.758d194c-244a-41b7-9e09-1bea5017cefd.gene_level_copy_number.tsv", 
+  "data_category": "Copy Number Variation", 
+  "analysis": {
+    "workflow_version": null, 
+    "input_files": [
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "XYLEM_p_TCGASNP_207_212_N_GenomeWideSNP_6_A01_1051280.CEL", 
+        "submitter_id": "f61a8cd1-df8e-46d7-9070-695e1ce47a73_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69118245, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T15:45:18.093993-06:00", 
+        "md5sum": "2fb708520ea4c85d15011a195562beef", 
+        "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+        "file_id": "bfc16394-be57-425c-9480-02f3f52ad347", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }, 
+      {
+        "data_format": "CEL", 
+        "access": "controlled", 
+        "file_name": "XYLEM_p_TCGASNP_207_212_N_GenomeWideSNP_6_A04_1051224.CEL", 
+        "submitter_id": "7b924fd9-7ae7-43c6-b014-382d5dedc733_legacy", 
+        "data_category": "Copy Number Variation", 
+        "platform": "Affymetrix SNP 6.0", 
+        "file_size": 69130033, 
+        "state_comment": null, 
+        "created_datetime": "2020-03-02T19:34:17.271940-06:00", 
+        "md5sum": "00decb9ae866450cbb360e3540a34ff5", 
+        "updated_datetime": "2020-03-31T14:22:20.288615-05:00", 
+        "file_id": "4d311d62-44b7-49db-bae6-e349b7baea64", 
+        "error_type": null, 
+        "data_type": "Raw Intensities", 
+        "state": "released", 
+        "experimental_strategy": "Genotyping Array"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2020-03-24T18:16:03.417319-05:00", 
+    "workflow_link": "https://github.com/Crick-CancerGenomics/ascat/releases/tag/v2.5.2", 
+    "submitter_id": "758d194c-244a-41b7-9e09-1bea5017cefd_ASCAT2", 
+    "state": "released", 
+    "workflow_type": "ASCAT2", 
+    "analysis_id": "bd9353ce-f60a-4701-b6be-3ee42d27e0b2", 
+    "created_datetime": "2020-03-11T17:03:21.565290-05:00"
+  }, 
+  "platform": "Affymetrix SNP 6.0", 
+  "file_size": 3446750, 
+  "md5sum": "d7ee2b3f6b0843d492c0255c80898a26", 
+  "file_id": "d86c4784-d181-41fd-a0eb-16eca69533f2", 
+  "data_type": "Gene Level Copy Number", 
+  "state": "released", 
+  "experimental_strategy": "Genotyping Array"
+}]
