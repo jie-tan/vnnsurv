@@ -1,0 +1,13 @@
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.0
+shap==0.41.0
+matplotlib==3.7.0
+torch==2.0.1
+torch-geometric==2.3.1
+torchaudio==2.0.2
+torchsummary==1.5.1
+torchvision==0.15.2
+lifelines==0.27.7
+scikit-learn==1.2.1
+networkx==3.1
