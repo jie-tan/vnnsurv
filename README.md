@@ -34,12 +34,11 @@ The input information for VNNSurv consists of structured genetic alteration prof
 	-i INPUT         the path of input file
 	-m SELECT_MODEL  the name of the model to use
 	-o OUTPUT        output directory. The default is the current path
-	-g GPU           the index of gpu device
 
 #### Example
 
 
-	python predict.py -i ./example/input.xlsx -o ./example/ -m vnnsurv -g 0
+	python predict.py -i ./example/input.xlsx -o ./example/ -m vnnsurv
 	
 
 
