@@ -6,6 +6,8 @@ import torch
 from torch.utils.data import TensorDataset, DataLoader
 import argparse
 
+path = os.getcwd()
+
 parser = argparse.ArgumentParser(
     description='VNNSurv: an interpretable survival model for DLBCL')
 parser.add_argument('-i', dest='input', nargs=1, required=True,
@@ -14,8 +16,6 @@ parser.add_argument('-m', dest='model', nargs=1, required=True,
                     help='the name of the model to use')
 parser.add_argument('-o', dest='output', nargs=1, default=[os.getcwd()],
                     help='output directory. The default is the current path')
-parser.add_argument('-g', dest='gpu', type=int, nargs=1, default=0,
-                    help='the index of gpu device')
 args = parser.parse_args()
 
 ##############################################################################################################
@@ -35,8 +35,8 @@ def load_model():
     print("Loading model...")
     m = args.model[0]
     # m = 'vnnsurv'
-    if m+'.pt' in os.listdir('./model/'):
-        model = torch.load('./model/'+m+'.pt')
+    if m+'.pt' in os.listdir(path+'/model/'):
+        model = torch.load(path+'/model/'+m+'.pt', map_location=torch.device("cpu"))
     else:
         sys.exit('Model error: no such model')
     return model
@@ -57,10 +57,11 @@ if __name__ == '__main__':
     Features = load_data()
     model = load_model()
     output_folder = args.output[0]
-    gpu = args.gpu[0]
+    # gpu = args.gpu[0]
     # output_folder = 'example/'
     # gpu = 0
-    device = torch.device("cuda:" + str(gpu) if torch.cuda.is_available() else "cpu")
+    # device = torch.device("cuda:" + str(gpu) if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")
     print(device)
 
     data = torch.from_numpy(Features).type(torch.float32)
@@ -70,3 +71,4 @@ if __name__ == '__main__':
     risks_save = pred(model, dataloader, device)
 
     np.savetxt(output_folder + 'output_risks.txt', risks_save)
+    print('Finished')
