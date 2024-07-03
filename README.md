@@ -40,7 +40,9 @@ The input information for VNNSurv consists of structured genetic alteration prof
 
 	python predict.py -i ./example/input.xlsx -o ./example/ -m vnnsurv
 	
-
+### Usage for risk stratification
+	python risk_stratification.py [-h] -i INPUT [-o OUTPUT]
+Before using 'risk_stratification.py', you need to download the weight matrix file 'weight_30.npy' and modify the local path of this file in 'risk_stratification.py'.
 
 ## Citation
 Tan J, Xie JC, Huang JR, Deng WZ, Yang YD*. Interpretable prognosis prediction and subtype identification for diffuse large B-cell lymphoma with biologically informed visible neural network.
